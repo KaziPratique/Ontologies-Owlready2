@@ -31,7 +31,7 @@ with onto:
     fr.abbrev.append("FR")
     # region
     occitanie = State("Occitanie", in_country = [fr])
-    iledefrance = State("Ile De France", in_country = [fr])
+    iledefrance = State("IleDeFrance", in_country = [fr])
     
     toulouse = City("Toulouse", in_state = [occitanie])
     toulouse.zip_code.append("31000")
